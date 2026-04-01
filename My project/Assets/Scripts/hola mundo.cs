@@ -10,7 +10,9 @@ public class holamundo : MonoBehaviour
         Debug.LogWarning("algo va a pasar");
         Debug.LogError("algo esta muy muy mal");
         Debug.Log("algo nuevo");
+        Debug.Log("prueba2");
     }
+
 
     // Update is called once per frame
     void Update()
