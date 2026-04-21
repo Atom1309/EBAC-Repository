@@ -44,7 +44,7 @@ public class Crearobjetodesde0  : MonoBehaviour
         boxcollider.center = new Vector3(0.5f, 0.5f, 0.5f);
         objtospanw.AddComponent<MeshRenderer>();        
         var meshrenderermaterial = objtospanw.GetComponent<MeshRenderer>().material;
-        meshrenderermaterial.color = Color.red;
+        meshrenderermaterial.color = Color.purple;
         objtospanw.transform.position = Vector3.one;
   
     }
